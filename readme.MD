@@ -1,17 +1,34 @@
-# thesood.dev Portfolio
+# Personal Portfolio
 
-My personal portfolio website → [thesood.dev](https://thesood.dev)
+A simple and clutter-free personal portfolio website that highlights my experience, projects, professional background, and contact information.
 
----
+<br>
 
-## How to Use
-- Clone the repo  
-- Open `index.html` in your browser  
-- Edit files in `src/` or root as needed  
+## ✨ Features
+- Modern & responsive single page layout  
+- Dedicated sections for About, Resume, Portfolio and Contact  
+- Lightweight and fast loading  
+- Clean asset structure for easy maintenance 
 
----
 
-## Notes
-- Sections: About, Skills, Resume, Portfolio, Contact  
-- Update portfolio and resume content when new work is added  
-- Repo is private — only for maintaining and updating site code
+
+<br>
+
+## 🛠️ Tech Stack
+- **HTML5**  
+- **CSS3**  
+- **JavaScript (minimal usage)**  
+- Asset based static site (no frameworks)
+
+<br>
+
+## 🚀 Usage
+```bash
+git clone https://github.com/divyanshsood22/portfolio.git
+```  
+*For deployment, host the folder on any static hosting service (GitHub Pages, Netlify, Vercel, etc.).*
+
+<br>
+
+## 📬 Contact
+For any opportunities or collaborations, feel free to reach out. 😄
