@@ -158,8 +158,9 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
-form = document.querySelector('[data-form]');
-formBtn = form.querySelector('[data-form-btn]');
+const formEl = document.querySelector('[data-form]');
+const formBtnEl = formEl.querySelector('[data-form-btn]');
+
 
 const feedback = document.createElement('div');
 feedback.className = 'form-feedback';
@@ -197,3 +198,34 @@ form.addEventListener('submit', async e => {
     formBtn.disabled = false;
   }
 });
+
+// Typing Effect
+(function () {
+  const el = document.getElementById('typed');
+  if (!el) return;
+
+  const words = ["Developer", "Manager", "Initiator", "Co-Founder"];
+  let w = 0, c = 0, deleting = false;
+
+  function tick() {
+    const current = words[w];
+
+    if (!deleting) {
+      el.textContent = current.slice(0, ++c);
+      if (c === current.length) {
+        deleting = true;
+        return setTimeout(tick, 900);
+      }
+    } else {
+      el.textContent = current.slice(0, --c);
+      if (c === 0) {
+        deleting = false;
+        w = (w + 1) % words.length;
+      }
+    }
+
+    setTimeout(tick, deleting ? 60 : 100);
+  }
+
+  setTimeout(tick, 400);
+})();
