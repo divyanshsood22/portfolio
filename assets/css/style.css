@@ -1,20 +1,3 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
 
   /**
@@ -372,6 +355,27 @@ main {
   letter-spacing: -0.25px;
   margin-bottom: 10px;
 }
+
+.info-content .title {
+  color: var(--white-1);
+  background: var(--onyx);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width: max-content;
+  padding: 3px 12px;
+  border-radius: 8px;
+}
+
+/* #typed {
+  border-right: 1px solid var(--white-1);
+  padding-right: 1px;
+  animation: blink 0.6s infinite;
+}
+@keyframes blink {
+  0%   { border-color: transparent; }
+  50%  { border-color: var(--white-1); }
+  100% { border-color: transparent; }
+} */
 
 .info-content .title {
   color: var(--white-1);
