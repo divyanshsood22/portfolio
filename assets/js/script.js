@@ -204,7 +204,7 @@ form.addEventListener('submit', async e => {
   const el = document.getElementById('typed');
   if (!el) return;
 
-  const words = ["Developer", "Manager", "Initiator", "Co-Founder"];
+  const words = ["Developer", "Manager", "Initiator", "Co-Founder",];
   let w = 0, c = 0, deleting = false;
 
   function tick() {
