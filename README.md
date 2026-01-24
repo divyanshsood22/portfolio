@@ -13,10 +13,11 @@ A simple and clutter-free personal portfolio website that highlights my experien
 <br>
 
 ## ▫️Tech Stack
-- HTML5
-- CSS3
-- JavaScript (minimal usage)
-- Asset based static site (no frameworks)
+**FrontEnd :** HTML, CSS
+**BackEnd :** JavaScript
+**Hosting :** Netlify
+**Domain :** name.com
+**DNS Protection:** Cloudflare
 
 <br>
 
